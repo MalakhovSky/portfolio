@@ -1,6 +1,6 @@
 body{
   /*background-color: rgba(84, 161, 134, 0.68);*/
-  background-color: #1c1919;
+  background-color: #1F2328;
   font-size: 14px;
   font-family: Nunito;
   color: #303835;
@@ -31,7 +31,7 @@ body{
   font-size: 20px;
   font-weight: bold;
   font-family: Nunito;
-  color: #46504d;
+  color: #91919b;
 }
 .contacts{
   display: flex;
@@ -49,7 +49,8 @@ body{
   width: 500px;
   height: 640px;
   margin-left: 25%;
-  background-color: #151414;
+
+  background-color: #263042;
 
 }
 .contacts_photo img{
