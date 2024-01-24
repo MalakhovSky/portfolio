@@ -126,7 +126,7 @@ h6{
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/aboutMe.jpg");
+  background-image: url(../img/aboutMe.jpg);
   background-repeat: no-repeat;
 }
 .about-me_text{
