@@ -35,8 +35,9 @@ body{
 }
 .contacts{
   display: flex;
-  height: 80vh
+  height: 80vh;
 }
+
 .contacts_text{
   width: 40%;
   font-size: 30px;
@@ -141,10 +142,7 @@ h5{
   opacity: 0;
   transform: translateY(400px);
 }
-.element-animation3{
-  opacity: 0;
-  transform: translateX(400px);
-}
+
 .element-animation4{
   opacity: 0;
   transform: translateX(-400px);
@@ -156,4 +154,174 @@ h5{
   transition: all 1s;
   transform: translateY(0%);
    transform: translateX(0%);
+}
+
+@media (min-width: 1025px) and (max-width: 1768px){
+  .contacts{
+    display: flex;
+    height: 70vh;
+  }
+
+  .contacts_text{
+    width: 50%;
+    font-size: 24px;
+    color: #8d8a8a;
+  }
+  .contacts_text h1{
+    font-size: 35px;
+  }
+  .contacts_photo{
+    width: 340px;
+    height: 480px;
+
+
+    background-color: #263042;
+
+  }
+  .contacts_photo img{
+    padding: 15px;
+    width: 300px;
+
+  }
+
+
+  .projects{
+    background-color: #ff8000;
+    width: 100%;
+    height: 100vh;
+    color: #1c1919;
+  }
+  .projects-block{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .projects h3{
+    font-size: 35px;
+
+  }
+  .projects-block_card{
+    background-color: #f88d23;
+    display: flex;
+    width: 350px;
+    height: 540px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  .projects-block_card div{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .projects-block_card img{
+    width: 340px;
+    border-radius: 10px;
+  }
+  h4{
+    font-size: 24px;
+  }
+  .about-me{
+    display: flex;
+    width: 100%;
+    height: 105vh;
+    background-image: url(/img/aboutMe.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px;
+  }
+  .about-me_text{
+    width: 60%;
+    margin: 50px 0 0 100px;
+
+
+  }
+  h5{
+    font-size: 30px;
+  }
+}
+@media (min-width: 390px) and (max-width: 844px){
+.nav-links{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+  .contacts{
+    display: flex;
+    height: 80vh;
+  }
+  .contacts_contacts a{
+    font-size: 10px;
+  }
+  .contacts_contacts{
+    font-size: 15px;
+  }
+  .contacts_text{
+    width: 100%;
+    font-size: 24px;
+    color: #8d8a8a;
+  }
+  .contacts_text h1{
+    font-size: 35px;
+  }
+  .contacts_photo{
+   display: none;
+
+  }
+  .contacts_photo img{
+   display: none;
+
+  }
+
+
+  .projects{
+    background-color: #ff8000;
+    width: 100%;
+    height: 100%;
+    color: #1c1919;
+  }
+  .projects-block{
+    height: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    flex-direction: column;
+  }
+  .projects h3{
+    font-size: 24px;
+
+  }
+  .projects-block_card{
+    display: flex;
+    width: 350px;
+    height: 540px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  .projects-block_card div{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .projects-block_card img{
+    width: 340px;
+    border-radius: 10px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .about-me{
+    width: 100%;
+    height: 100%;
+    background-image: none;
+  }
+  .about-me_text{
+    width: 90%;
+   margin-left: 30px;
+
+  }
+  h5{
+    font-size: 24px;
+  }
 }
