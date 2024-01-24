@@ -248,14 +248,19 @@ h5{
 }
 @media (min-width: 390px) and (max-width: 844px){
 .nav-links{
-  display: flex;
-  flex-direction: column;
+  display: none;
+  top:50px;
+  right: 10px;
   margin-left: 40px;
   margin-top: 10px;
+  justify-content: space-evenly;
 }
+  .nav-links a{
+    font-size: 15px;
+  }
   .contacts{
     display: flex;
-    height: 80vh;
+    height: 85vh;
   }
   .contacts_contacts a{
     font-size: 10px;
