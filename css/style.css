@@ -166,7 +166,7 @@ h5{
 @media (min-width: 1025px) and (max-width: 1768px){
   .contacts{
     display: flex;
-    height: 71vh;
+    height: 80vh;
   }
 
   .contacts_text{
