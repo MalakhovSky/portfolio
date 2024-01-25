@@ -124,7 +124,7 @@ body{
 }
  .btn1{
    position: absolute;
-   right: 100px;
+   right: 130px;
  }
 .projects-block_card{
   position: relative;
@@ -159,7 +159,7 @@ h6{
   background-repeat: no-repeat;
 }
 .about-me_text{
-  width: 70%;
+  width: 65%;
   margin: 100px 0 0 100px;
   font-size: 20px;
   color: white;
@@ -193,6 +193,12 @@ h5{
 }
 
 @media  (max-width: 1200px){
+
+  .nav-links{
+    right:10px;
+    width: 350px;
+    font-size: 15px;
+  }
   .nav-links a{
     margin-right: 20px;
   }
