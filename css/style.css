@@ -333,9 +333,11 @@ h5{
     color: #1c1919;
   }
   .projects-block{
-    height: 100%;
-    justify-content: space-evenly;
     display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
     width: 100%;
     margin-left: 10px;
     flex-direction: column;
